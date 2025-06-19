@@ -1,6 +1,6 @@
 # 🌐 Personal Developer Portfolio
 
-This is a scrollable, dark-themed developer portfolio built using **React.js**, designed to showcase your skills, projects, blog, and contact information.
+This is a scrollable, dark-themed developer portfolio built using **React.js**, designed to showcase my skills, projects, blog, and contact information.
 
 
 ## 🚀 Features
