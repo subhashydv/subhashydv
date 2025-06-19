@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/subhashydv/static/css/main.e6c13ad2.css",
-    "main.js": "/subhashydv/static/js/main.39f5afe1.js",
+    "main.js": "/subhashydv/static/js/main.b82131c2.js",
     "static/js/453.41811d64.chunk.js": "/subhashydv/static/js/453.41811d64.chunk.js",
     "static/media/myDP.jpg": "/subhashydv/static/media/myDP.30cf33bb101bdafece47.jpg",
     "static/media/scotlandYard.png": "/subhashydv/static/media/scotlandYard.be32ba454194fbffc34c.png",
     "static/media/backgroundImage.png": "/subhashydv/static/media/backgroundImage.f1af7d778caa9f3fe2aa.png",
     "static/media/todoApp.png": "/subhashydv/static/media/todoApp.54f1bb34bbe40a57bbba.png",
-    "static/media/SubhashResume.pdf": "/subhashydv/static/media/SubhashResume.f27fef82f85e53aaac98.pdf",
+    "static/media/SubhashResume.pdf": "/subhashydv/static/media/SubhashResume.5cff5a82c0afef937bd2.pdf",
     "index.html": "/subhashydv/index.html",
     "main.e6c13ad2.css.map": "/subhashydv/static/css/main.e6c13ad2.css.map",
-    "main.39f5afe1.js.map": "/subhashydv/static/js/main.39f5afe1.js.map",
+    "main.b82131c2.js.map": "/subhashydv/static/js/main.b82131c2.js.map",
     "453.41811d64.chunk.js.map": "/subhashydv/static/js/453.41811d64.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.39f5afe1.js"
+    "static/js/main.b82131c2.js"
   ]
 }
