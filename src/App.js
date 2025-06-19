@@ -10,6 +10,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import EducationAndSkills from './components/EducationAndSkills/EducationAndSkills';
 import Contact from './components/Contact';
 import { DrawerProvider } from './components/DrawerContext';
+import Blog from "./components/Blog";
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
                 <Route path="/subhashydv" element={<HomePage />} />
                 <Route path="/workExperience" element={<WorkExperience />} />
                 <Route path="/portfolio" element={<Portfolio />} />
+                <Route path="/blog" element={<Blog />} />
                 <Route path="/educationAndExperience" element={<EducationAndSkills />} />
                 <Route path="/contact" element={<Contact />} />
 
