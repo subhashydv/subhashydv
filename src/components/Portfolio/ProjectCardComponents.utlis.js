@@ -12,13 +12,16 @@ import CloseIcon from '@mui/icons-material/Close';
 import LaunchIcon from '@mui/icons-material/Launch';
 import scotlandYard from "../../assets/scotlandYard.png"
 import todoApp from "../../assets/todoApp.png"
+import timeSheetAutofill from "../../assets/timeSheetAutofill.png"
 
 const getImageUrl = (title) => {
-  if (title === "Scotland Yard") {
-    return scotlandYard
-  } else if (title === "ToDo Web App") {
-    return todoApp
-  }
+    const titleImageMapping = {
+        "Scotland Yard": scotlandYard,
+        "ToDo Web App": todoApp,
+        "Timesheet Autofill": timeSheetAutofill,
+    }
+
+    return titleImageMapping[title] || scotlandYard;
 }
 
 export const ProjectCardFront = ({ about, title, project_link, handleClickOpen }) => {

@@ -95,7 +95,7 @@ export const projectDataList = [
   },
   {
     title: "ToDo Web App",
-    link: null,
+    link: "https://github.com/subhashydv/DailyDo",
     about: "A simple yet powerful To-Do web application designed to help users manage daily tasks efficiently. The application allows users to add, delete, and mark tasks as complete, with all changes reflected in real-time. Built using a lightweight tech stack with a focus on clarity, responsiveness, and clean UI/UX.",
     description: "This project is a full-stack to-do list web application built from scratch using Vanilla JavaScript (no frameworks), HTML, and CSS for the front end, and Node.js with Express.js on the back end. ",
     keyContributions: [
@@ -106,5 +106,20 @@ export const projectDataList = [
     ],
     techStack: "VanillaJs, NodeJs, ExpressJs, GIT",
     techStackList: ["VanillaJs", "NodeJs", "ExpressJs", "Git"]
+  },
+  {
+    title: "Timesheet Autofill",
+    link: "https://github.com/subhashydv/Timesheet-AutoFill",
+    about: "A simple tool which is designed to automate the process of filling out timesheets by executing a pre-configured script at scheduled intervals using cron jobs. It eliminates the need for manual entry by auto-filling work logs based on predefined templates, ensuring timely and consistent submission.",
+    description: "This project is a simple tool which runs on background to fill timesheet automatically by scheduling cronjob. It uses the data defined from user while setup to enhance user experience. By integrating with the client’s timesheet portal and running silently in the background, the tool helps improve productivity, reduce human error, and ensure compliance with submission deadlines.",
+    keyContributions: [
+      "Developed the tool using Taiko and JavaScript for browser automation.",
+      "Used AppleScript to interact with system to launch consent popup",
+      "Implemented a cron job to schedule the autofill task at regular intervals.",
+      "Ensured tool automatically keep doing checkout until user active on the system.",
+      "Enhanced user experience by showing a popup when password gets expired, prompting the user to update it.",
+    ],
+    techStack: "JavaScript, Taiko, dotEnv, Git",
+    techStackList: ["JavaScript", "Taiko", "dotEnv", "Git"]
   }
 ];
