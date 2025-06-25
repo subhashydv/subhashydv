@@ -20,7 +20,7 @@ const InquiryForm = () => {
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
-
+  
   const validateForm = () => {
     let formErrors = {};
     if (!formData.name) formErrors.name = "Name is required";
@@ -38,18 +38,12 @@ const InquiryForm = () => {
     e.preventDefault();
 
     if (!validateForm()) return;
-    // emailjs.send(
-    //     process.env.REACT_APP_EMAIL_SERVICE_ID, // service_cnqgu6s
-    //     process.env.REACT_APP_EMAIL_TEMPLATE, // template_gu0bwwg
-    //     formData,
-    //     process.env.REACT_APP_EMAIL_USER_ID // l6XtUi6QunfuFz1uK
-    // )
 
     emailjs.send(
-      "service_cnqgu6s",
-      "template_gu0bwwg",
-      formData,
-      "l6XtUi6QunfuFz1uK"
+        process.env.REACT_APP_EMAIL_SERVICE_ID,
+        process.env.REACT_APP_EMAIL_TEMPLATE,
+        formData,
+        process.env.REACT_APP_EMAIL_USER_ID
     )
       .then((response) => {
         alert('Inquiry sent successfully!');
