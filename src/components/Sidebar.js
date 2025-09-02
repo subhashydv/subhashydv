@@ -50,7 +50,7 @@ const PageBody = ({marginBottom, marginTop}) => {
                     </ListItem>
                     <ListItem button component={Link} to="/portfolio">
                         <ListItemIcon sx={{color: 'white'}}><EditNote/></ListItemIcon>
-                        <ListItemText primary="Portfolio"/>
+                        <ListItemText primary="Personal Projects"/>
                     </ListItem>
                     <ListItem button component={Link} to="/blog">
                         <ListItemIcon sx={{color: 'white'}}><ArticleIcon/></ListItemIcon>
@@ -70,7 +70,7 @@ const PageBody = ({marginBottom, marginTop}) => {
 
                                 component="a"
                                 href={resume}
-                                download="Jaya.pdf"
+                                download="Subhash.pdf"
                                 sx={{
                                     marginTop: "10px",
                                     borderColor: '#20C997',
@@ -85,7 +85,7 @@ const PageBody = ({marginBottom, marginTop}) => {
                                 }}
                         >
 
-                            Download PDF
+                            Download Resume
 
                         </Button>
                     </Box>

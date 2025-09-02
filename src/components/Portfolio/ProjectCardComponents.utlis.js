@@ -38,8 +38,8 @@ export const ProjectCardFront = ({ about, title, project_link, handleClickOpen }
         <CardMedia
           component="img"
           alt={title}
-          height="25%"
-          sx={{ width: { xs: "50%", sm: "25%" } }}
+          height="100%"
+          sx={{ width: { xs: "100%", sm: "25%" } }}
           image={getImageUrl(title)}
         />
         <Box
