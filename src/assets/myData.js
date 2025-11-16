@@ -43,28 +43,32 @@ export const educationDetails = [
 
 export const timelineData = [
   {
-    date: 'July 2023 - Present',
+    date: 'Aug 2025 - Present',
+    title: 'Software Development : Senior Consultant',
+    company: 'ThoughtWorks | International Organization for Migration (IOM)',
+    techStack: "Java, SpringBoot, ReactJs, Postgres, Redis, Docker, Microservices",
+    description: "I have contributed in building a new appointment-service on top of Bahmni (OpenMRS) to support a more flexible and scalable scheduling workflow. This included designing and implementing a CQRS-based Appointment Availability Service that could handle real-time slot searches and bookings without affecting system performance.\n" +
+        "also developed a React PWA for the appointment UI so that health workers could use the system reliably even in low-bandwidth environments. To make the service faster and more responsive, I integrated Redis caching, which significantly reduced lookup times.\n" +
+        "The backend was built using Spring Boot, following a clean and modular architecture. I containerized the service using Docker, making development and QA environments much easier to manage.\n" +
+        "Overall, this work modernized the appointment module beyond Bahmni’s default capabilities and created a standalone, maintainable service aligned with the client’s operational needs.\n"
+  },
+  {
+    date: 'July 2023 - Aug 2025',
     title: 'Software Development : Consultant',
-    company: 'ThoughtWorks',
+    company: 'ThoughtWorks | Axis Bank',
     techStack: "Java, ReactJs, Kotlin, SpringBoot, MongoDB, Kafka, Kubernetes, Docker, Microservices, Agile Methodology, TDD, Knowledge Sharing",
-    description: "As a Full Stack Developer, I played a pivotal role in developing and deploying scalable applications,\n" +
-      "utilizing a range of frontend and backend technologies. My expertise in frontend development encompassed\n" +
-      "React and Redux, while on the backend, I leveraged Java, Kotlin, and Spring Boot to build robust and efficient\n" +
-      "server-side solutions. I was actively involved in implementing Agile methodologies and Test-Driven Development\n" +
-      "(TDD), which significantly enhanced our code quality and maintainability. This approach led to a 30% reduction\n" +
-      "in bug reports and improved integration efficiency across our microservices architecture.\n" +
-      "In my role, I contributed effectively as part of an 8-member team, employing Docker, Kafka, and Kubernetes for\n" +
-      "containerization and streamlined deployment processes. My efforts in enhancing user experience were notable;\n" +
-      "I improved user-friendliness by up to 10% through diligent bug identification and resolution.\n" +
-      "This involved direct interaction with users, gathering their feedback, and implementing targeted solutions to\n" +
-      "refine the overall user experience and functionality of our applications.\n"
+    description: "As a Full Stack Developer, I contributed to building and enhancing a large-scale loan lending platform for Axis Bank. I worked on both the frontend and backend to help build and refine core parts of the system. On the frontend, I spent a lot of time working with React and Redux to make the application easier to use and more responsive. On the backend, I used Kotlin, Node.js, and Spring Boot to build and maintain microservices that handled different parts of the loan journey.\n" +
+        "I played a major role in improving customer experience by leading the development of an assisted application feature, which increased user engagement and reduced loan application drop-off rates by 24%. I also designed analytics dashboards using Apache Superset, enabling faster debugging and reducing issue resolution time by 30%.\n" +
+        "I contributed to a scalable microservices architecture communicating via REST APIs and Kafka, and used Docker and Kubernetes to automate deployment workflows.\n" +
+        "Beyond development, I collaborated closely with client to identify and resolve critical issues, improving overall usability by 10%. I also conducted knowledge-sharing sessions and mentored new team members, helping accelerate team productivity and fostering a culture of learning."
   },
   {
     date: 'OCT 2022 - JUL 2023',
     title: 'Software Developer : Grade Consultant',
-    company: 'Thoghtworks',
+    company: 'Thoghtworks | Atlassian',
     techStack: "TypeScript, Postgres, Backend Development, Api Development, Data Migration",
-    description: "Migration for product provisioning service - Contributed to the migration of a legacy system for product provisioning, ensuring zero downtime and no impact on existing customers."
+    description: "Migration for product provisioning service - Contributed to the migration of a legacy system for product provisioning, ensuring zero downtime and no impact on existing customers.\n" +
+        "As part of the effort, I built a migration and verification script in TypeScript, using higher-order functions to handle large data sets reliably. This helped maintain 100% data consistency throughout the move and earned appreciation from the client for the thoroughness of the approach\n"
   },
   {
     date: 'FEB 2021 - SEPT 2022',
@@ -80,7 +84,7 @@ export const timelineData = [
 export const projectDataList = [
   {
     title: "Scotland Yard",
-    link: "https://subhashydv.github.io/blog/2022/08/scotland-yard/",
+    link: "https://github.com/subhashydv/scotland-yard-byomkesh",
     about: "Scotland yard is board game in which detectives tries to catch robber based on robber log. Players can move around streets of London representing board map. This strategic game emphasizes teamwork and dedication, all brought to life through real-time interactions and a browser-based interface.",
     description: "Scotland yard is board game in which detectives tries to catch robber based on robber log. Players can move around streets of London representing board map. It was published in 1983 and received the Spiel des Jahres award in same year.",
     keyContributions: [

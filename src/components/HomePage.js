@@ -69,7 +69,7 @@ const HomePage = () => {
 
                 }}
               >
-                I am a Experienced Software Developer with 4+ years of hands-on experience in developing scalable web applications and microservices.
+                I am a Experienced Software Developer with 4.5+ years of hands-on experience in developing scalable web applications and microservices.
                 Proficient in programming languages such as JavaScript, Java, and Kotlin, with expertise in frameworks like SpringBoot, React, and ExpressJs.
                 Demonstrated ability to manage deployments using Docker, Kafka, and Kubernetes.
                 <br />
