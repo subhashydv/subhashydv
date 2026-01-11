@@ -43,8 +43,8 @@ export const educationDetails = [
 
 export const timelineData = [
   {
-    date: 'Aug 2025 - Present',
-    title: 'Software Development : Senior Consultant',
+    date: 'Sept 2025 - Present',
+    title: 'Software Developer : Senior Consultant',
     company: 'ThoughtWorks | International Organization for Migration (IOM)',
     techStack: "Java, SpringBoot, ReactJs, Postgres, Redis, Docker, Microservices",
     description: "I have contributed in building a new appointment-service on top of Bahmni (OpenMRS) to support a more flexible and scalable scheduling workflow. This included designing and implementing a CQRS-based Appointment Availability Service that could handle real-time slot searches and bookings without affecting system performance.\n" +
@@ -54,7 +54,7 @@ export const timelineData = [
   },
   {
     date: 'July 2023 - Aug 2025',
-    title: 'Software Development : Consultant',
+    title: 'Software Developer : Consultant',
     company: 'ThoughtWorks | Axis Bank',
     techStack: "Java, ReactJs, Kotlin, SpringBoot, MongoDB, Kafka, Kubernetes, Docker, Microservices, Agile Methodology, TDD, Knowledge Sharing",
     description: "As a Full Stack Developer, I contributed to building and enhancing a large-scale loan lending platform for Axis Bank. I worked on both the frontend and backend to help build and refine core parts of the system. On the frontend, I spent a lot of time working with React and Redux to make the application easier to use and more responsive. On the backend, I used Kotlin, Node.js, and Spring Boot to build and maintain microservices that handled different parts of the loan journey.\n" +
@@ -64,7 +64,7 @@ export const timelineData = [
   },
   {
     date: 'OCT 2022 - JUL 2023',
-    title: 'Software Developer : Grade Consultant',
+    title: 'Software Developer : STEP Grad',
     company: 'Thoghtworks | Atlassian',
     techStack: "TypeScript, Postgres, Backend Development, Api Development, Data Migration",
     description: "Migration for product provisioning service - Contributed to the migration of a legacy system for product provisioning, ensuring zero downtime and no impact on existing customers.\n" +
